@@ -10,13 +10,13 @@ public class BlackColorTest {
     public void shouldReturnWhiteWhenFlipped() {
         BlackColor blackColor = new BlackColor();
         CellColor actualColorReturned = blackColor.flip();
-        assertEquals(CellColor.WHITE, actualColorReturned);
+        assertEquals("Should Return White when flipped", CellColor.WHITE, actualColorReturned);
     }
     @Test
     public void shouldNotReturnBlackWhenFlipped() {
         BlackColor blackColor = new BlackColor();
         CellColor actualColorReturned = blackColor.flip();
-        assertNotEquals(CellColor.BLACK, actualColorReturned);
+        assertNotEquals("Should return Black when flipped", CellColor.BLACK, actualColorReturned);
     }
 
 
