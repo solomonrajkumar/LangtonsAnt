@@ -19,17 +19,17 @@ public class PositionTest {
     }
 
     @Test
-    public void shouldReturnFalseWhenMaxColumnizeIsExceeded() {
+    public void shouldReturnTrueWhenMaxColumnSizeIsNotExceeded() {
         Position position = new Position(5, 5);
-        boolean actualResultWhenColumnSizeExceeded = position.isValidColumn(5);
-        assertEquals("should Return False When MaxRowSize Is Exceeded", false, actualResultWhenColumnSizeExceeded);
+        boolean actualResultWhenColumnSizeExceeded = position.isValidColumn(10);
+        assertEquals("should Return True When MaxColumnSize Is Not Exceeded", true, actualResultWhenColumnSizeExceeded);
     }
 
     @Test
     public void shouldReturnFalseWhenMaxColumnSizeIsExceeded() {
         Position position = new Position(5, 5);
         boolean actualResultWhenColumnSizeExceeded = position.isValidColumn(5);
-        assertEquals("should Return False When MaxRowSize Is Exceeded", false, actualResultWhenColumnSizeExceeded);
+        assertEquals("should Return False When MaxColumnSize Is Exceeded", false, actualResultWhenColumnSizeExceeded);
     }
 
 
