@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LangtonsAnt.iml" filepath="$PROJECT_DIR$/LangtonsAnt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/langdons-ant.iml" filepath="$PROJECT_DIR$/.idea/modules/langdons-ant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/langdons-ant_main.iml" filepath="$PROJECT_DIR$/.idea/modules/langdons-ant_main.iml" group="langdons-ant" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/langdons-ant_test.iml" filepath="$PROJECT_DIR$/.idea/modules/langdons-ant_test.iml" group="langdons-ant" />
     </modules>
   </component>
 </project>
